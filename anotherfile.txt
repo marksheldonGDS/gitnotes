@@ -1,7 +1,8 @@
-This is another file to test with.
+This is another line.
 
 Here is another line that is probably going to cause a conflict.
 
 This is the next line that, has a change in the middle, that is not needed.
+
 
 This is another line, with another conflict.

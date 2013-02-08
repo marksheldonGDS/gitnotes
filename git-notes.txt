@@ -80,11 +80,18 @@
 * To initialise a git repository:
 `git init`
 
+* To review the status of git:
+`git status`
+
+* To review the log of git history:
+`git log`
+
 * To add a file to the repository staging area:
 `git add <filename>`
 
 * To commit everything in the staging area to the repository:
-`git commit --message "A sensible message for the commit."
+`git commit --message "A sensible message for the commit."`
+
 
 * To revert changes in a commit:
 `git revert <hash of the commit you want to revert>`
