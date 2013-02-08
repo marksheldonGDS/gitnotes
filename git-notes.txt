@@ -1,0 +1,22 @@
+Git
+
+Git is...
+
+* a content addressable database
+* and a version control system
+* The version control system uses the database
+
+The database
+
+* Most databases are location addressable: you store data in a location
+* Git's database is a content addressable database, you put content in and it gives you back a fingerprint or hash.
+* If you change a single piece of that content you get a new unique hash.
+* All of the content you put into Git is called a repository
+* When you put some Raw content into a repository it is called a blob
+* A blob is just the contents of a file. It's doesn't contain any metadata: information about what the file is called and where it lives and what's changed
+* A record of information about files, the Git database can store a treee
+* A tree represents a folder; it collects together all the metadata about the blobs of raw data
+* 
+
+
+
