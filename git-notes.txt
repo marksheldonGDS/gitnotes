@@ -86,6 +86,19 @@
 * To commit everything in the staging area to the repository:
 `git commit --message "A sensible message for the commit."
 
+* To revert changes in a commit:
+`git revert <hash of the commit you want to revert>`
+
+* To create a branch:
+`git branch <branchname>`
+
+* To view the branches you have:
+`git branch`
+
+* To merge a branch into master:
+`git checkout master`
+`git merge --message "A sensible message for the merge." <branchname>
+
 * To ignore files:
 `echo '.DS_Store' > .gitignore`
 `cat .gitignore`
