@@ -4,7 +4,7 @@ h1 Git
 
 ** a content addressable database
 ** and a version control system
-** The version control system uses the database
+** a distributed version control system uses the database
 
 * The database
 
@@ -14,7 +14,7 @@ h1 Git
 ** All of the content you put into Git is called a repository
 ** When you put some Raw content into a repository it is called a blob
 ** A blob is just the contents of a file. It's doesn't contain any metadata: information about what the file is called and where it lives and what's changed
-** A record of information about files, the Git database can store a treee
+** A record of information about files, the Git database can store a tree
 ** A tree represents a folder; it collects together all the metadata about the blobs of raw data
 ** The point is: the Git database can store files and folders
 ** Everything stored by Git gets a unique hash that can be used to retrieve it later
@@ -36,6 +36,30 @@ h1 Git
 *** the name and email address of the person
 *** date and time
 *** the hash of the previous commit
+** Git identifies the most recent commit by putting a label on it
+** this label is called  branch
+** a branch can have a name you like, but the default name is master
+** the label master moves to the most recent commit 
+
+* Git workflow
+
+** you can check out a branch
+*** Git retrieves all the files and folders from the appropriate commit
+** you make some changes
+** you commit those changes
+*** Git stores all your files and folders, stores a new commit with your messages and moves the branch
+** Creating a new branch, or checking out an existing one, is very fast and easy
+** Git deliberately makes this easy as possible to encourage you to create branches
+** Every time you start a new chunk of work (e.g. a "story") you can do it on a new branch
+** If you get interrupted and need to work on something else, you can switch back to your main branch
+** Your work on the new branch will still be there when you're ready to go back to it.
+** 
+
+
+
+
+
+
 
 
 
