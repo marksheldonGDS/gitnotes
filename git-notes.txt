@@ -92,7 +92,6 @@
 * To commit everything in the staging area to the repository:
 `git commit --message "A sensible message for the commit."`
 
-
 * To revert changes in a commit:
 `git revert <hash of the commit you want to revert>`
 
