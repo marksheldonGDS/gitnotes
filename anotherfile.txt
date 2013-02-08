@@ -1,3 +1,5 @@
 This is another file to test with.
 
 This is the next line that is not needed.
+
+This is another line.

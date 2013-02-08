@@ -79,12 +79,23 @@
 
 ## Commands
 
+* To initialise a git repository:
+`git init`
+
+* To add a file to the repository staging area:
+`git add <filename>`
+
+* To commit everything in the staging area to the repository:
+`git commit --message "A sensible message for the commit."
+
 * To ignore files:
-echo '.DS_Store' > .gitignore
-cat .gitignore 
-git status
-git add .gitignore
-git commit --message "Ignore .DS_Store files"
+`echo '.DS_Store' > .gitignore`
+`cat .gitignore`
+`git status`
+`git add .gitignore`
+`git commit --message "Ignore .DS_Store files"`
+
+
 
 
 
