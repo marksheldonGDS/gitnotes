@@ -62,15 +62,29 @@
 * Branches all have a common ancestor, when they were both the same
 * Making a merge commit brings two branches together
 
-# Git hands on
+## Git hands on
 
 * Git provides a staging area for collecting all the changes you want to put into a commit
 * The git add command puts a snapshot of the file into the staging area ready for a commit
 * The git commit command puts the files in staging area into the git repository, with a message you add of what has changed.
-* 
+* Git allows you to undo the changes from any commit, not just the most recent one
+* Git stores snapshots, not changes
+* If you ask for a commit to be reverted, Git first has to calculate what changes was introduced by that commit
+* It compares the files & folders from that commit with those form the previous commit.
+* To revert a change:
+** find the hash of an earlier commit
 
-# Questions:
+## Questions:
 * What should be the atomicity of the commit?
+
+## Commands
+
+* To ignore files:
+echo '.DS_Store' > .gitignore
+cat .gitignore 
+git status
+git add .gitignore
+git commit --message "Ignore .DS_Store files"
 
 
 
