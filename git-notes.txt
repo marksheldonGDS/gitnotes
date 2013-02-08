@@ -2,9 +2,13 @@ h1 Git
 
 * Git is...
 
-** a content addressable database
-** and a version control system
-** a distributed version control system uses the database
+** a content addressable database, where you can store files forever
+** and a version control system, creates snapshots of your work
+** a distributed version control system that uses the database
+** lightweight branches
+*** easily switch between contexts
+*** merge branches once work is finished
+
 
 * The database
 
@@ -53,8 +57,19 @@ h1 Git
 ** Every time you start a new chunk of work (e.g. a "story") you can do it on a new branch
 ** If you get interrupted and need to work on something else, you can switch back to your main branch
 ** Your work on the new branch will still be there when you're ready to go back to it.
+** When you've finished with a temporary branch, you can merge it with another branch, then delete it.
+** Branches all have a common ancestor, when they were both the same
+** Making a merge commit brings two branches together
+
+* Questions:
+** What should be the atomicity of the commit?
 ** 
 
+* Git hands on
+
+** Git provides a staging area for collecting all the changes you want to put into a commit
+** The git add command puts a file into the staging area ready for a commit
+** 
 
 
 
