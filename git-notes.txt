@@ -112,7 +112,9 @@
 `git add .gitignore`
 `git commit --message "Ignore .DS_Store files"`
 
-
+* To push a local repository into Github repository:
+`git remote add origin https://github.com/marksheldonGDS/gitnotes.git`
+`git push -u origin master`
 
 
 
