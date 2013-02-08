@@ -1,6 +1,5 @@
 # Git presentation from @tomstuart / tom@codon.com
 
-
 ## Git is...
 
 * a content addressable database, where you can store files forever
@@ -9,7 +8,6 @@
 * lightweight branches
 ** easily switch between contexts
 ** merge branches once work is finished
-
 
 ## The database
 
