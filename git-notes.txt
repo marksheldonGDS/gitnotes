@@ -132,7 +132,13 @@
 * Pull requests; having forked someone else's repository you can make a pull request on your changes which sends the repository's owner a message and allows them to merge those changes into their repository.
 * Editing; you can pick any repository on Github, click an individual file and click Edit. If you are not a collaborator on the repository Github will then take a clone of that repository, makes those changes and submit a pull request back to the repository's owner.
 
+# Further reading
 
+* cherry-picking
+* stashing
+* rebasing
+* http://git-scm.com/book (Pro Git)
+* 
 
 
 
