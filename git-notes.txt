@@ -116,6 +116,22 @@
 `git remote add origin https://github.com/marksheldonGDS/gitnotes.git`
 `git push -u origin master`
 
+* To fetch and then merge changes into your local repository from Github's remote origin/master branch:
+`git fetch`
+`git merge origin/master`
+
+* To fetch and merge changes into your local repository from Github's remote origin/master branch in one go, essentially a fetch and merge:
+`git pull`
+
+* Blaming:
+`git blame <filename>`
+
+# Github features
+
+* Forking a user on Github; it takes a complete copy of their repository and clone's it into your Github account as a remote repository. This fork then belongs to you. You do not have to be collaborators to do this. 
+* Pull requests; having forked someone else's repository you can make a pull request on your changes which sends the repository's owner a message and allows them to merge those changes into their repository.
+* Editing; you can pick any repository on Github, click an individual file and click Edit. If you are not a collaborator on the repository Github will then take a clone of that repository, makes those changes and submit a pull request back to the repository's owner.
+
 
 
 
