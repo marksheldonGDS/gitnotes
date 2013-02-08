@@ -6,8 +6,8 @@
 * and a version control system, creates snapshots of your work
 * a distributed version control system that uses the database
 * lightweight branches
-** easily switch between contexts
-** merge branches once work is finished
+	* easily switch between contexts
+	* merge branches once work is finished
 
 ## The database
 
@@ -34,11 +34,11 @@
 * the project's history is recorded as a series of commits
 * Every commit gets stored forever in the Git database
 * A commit contains 5 pieces of information
-** the hash of a tree (files & folders)
-** descriptive message
-** the name and email address of the person
-** date and time
-** the hash of the previous commit
+	* the hash of a tree (files & folders)
+	* descriptive message
+	* the name and email address of the person
+	* date and time
+	* the hash of the previous commit
 * Git identifies the most recent commit by putting a label on it
 * this label is called  branch
 * a branch can have a name you like, but the default name is master
@@ -47,10 +47,10 @@
 ## Git workflow
 
 * you can check out a branch
-** Git retrieves all the files and folders from the appropriate commit
+	* Git retrieves all the files and folders from the appropriate commit
 * you make some changes
 * you commit those changes
-** Git stores all your files and folders, stores a new commit with your messages and moves the branch
+	* Git stores all your files and folders, stores a new commit with your messages and moves the branch
 * Creating a new branch, or checking out an existing one, is very fast and easy
 * Git deliberately makes this easy as possible to encourage you to create branches
 * Every time you start a new chunk of work (e.g. a "story") you can do it on a new branch
@@ -70,7 +70,7 @@
 * If you ask for a commit to be reverted, Git first has to calculate what changes was introduced by that commit
 * It compares the files & folders from that commit with those form the previous commit.
 * To revert a change:
-** find the hash of an earlier commit
+	* find the hash of an earlier commit
 
 ## Questions:
 * What should be the atomicity of the commit?
@@ -138,7 +138,7 @@
 * stashing
 * rebasing
 * http://git-scm.com/book (Pro Git)
-* 
+
 
 
 
